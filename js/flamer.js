@@ -65,5 +65,5 @@ window.requestAnimFrame = (function() {
 })();
 
 gyro.startTracking(function(o) {
-    ctx.translate(o.alpha, o.beta);
+    console.log(o);
 });
