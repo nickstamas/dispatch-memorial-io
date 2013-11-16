@@ -55,7 +55,7 @@ function redraw() {
   if (imageReady) {
     ctx.save();
     ctx.translate( 100, 200 );
-    ctx.rotate( rotationPercent*leftMax );
+    ctx.rotate( 0.02 );
     ctx.translate( -40, -160 );
     drawImageIOSFix(ctx, img, frame*80, 0, 80, 160, canvas.width/2 - 40, canvas.height - 160, 80, 160);
     ctx.restore();
