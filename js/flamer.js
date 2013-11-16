@@ -8,14 +8,14 @@ var rightMax = pi/4;
 var rotationPercent = 0;
 
 function onload() { 
-  canvas = document.getElementById('flameCanvas'); 
-  ctx = canvas.getContext("2d"); 
-  img = new Image(); 
-  img.src = 'img/flame.png';
-  img.width = '80';
-  img.height = '160';
-  img.onload = loaded();
-  resize();
+  // canvas = document.getElementById('flameCanvas'); 
+  // ctx = canvas.getContext("2d"); 
+  // img = new Image(); 
+  // img.src = 'img/flame.png';
+  // img.width = '80';
+  // img.height = '160';
+  // img.onload = loaded();
+  // resize();
 }
 
 function resize() {

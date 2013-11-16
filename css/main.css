@@ -98,7 +98,7 @@ textarea {
    ========================================================================== */
 
 body {
-    
+
 }
 
 ol {
@@ -116,6 +116,8 @@ ol {
 
 hr {
     margin-bottom: 42px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .content {
@@ -166,7 +168,7 @@ h1 a, h1 a:visited, a:hover {
 
 .section-label {
     font-family: "futura-pt","Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 17px;
     border-bottom: 1px solid #000;
     display: inline-block;
@@ -179,6 +181,15 @@ h1 a, h1 a:visited, a:hover {
 
 .footer {
     width: 100%;
+    text-align: center;
+    background: #000;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 80px;
+}
+
+.footer a {
+    color: #fff;
 }
 
 .footer canvas {
