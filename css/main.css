@@ -97,6 +97,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.secondary-text {
+    color: #ccc;
+    font-style: italic;
+}
+
+.content {
+    max-width: 670px;
+    margin: 0 auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+
 .top {
     background: #000;
     width: 100%;
@@ -114,9 +128,22 @@ textarea {
 h1 {
     font-family: "futura-pt",sans-serif;
     font-weight: 400;
+    font-size: 32px;
+    text-align: center;
 }
 
+.name-list {
+    list-style: none;
+}
 
+.footer {
+    width: 100%;
+}
+
+.footer canvas {
+    width: 1000px;
+    height: 500px;
+}
 
 
 

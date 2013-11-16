@@ -14,11 +14,12 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script type="text/javascript" src="//use.typekit.net/eby1nas.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
-    <body>
+    <body onload='onload()'>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -28,12 +29,62 @@
             <img src='img/pigeon@2x.png'/>
         </div>
 
-        <h1>Dispatch is now closed.</h1>
+        <div class='content'>
+            <h1>Dispatch is now closed.</h1>
+
+            <hr/>
+
+            <div class='section-label'>DISPATCH WAS BUILT BY:</div>
+            <div class='row' id='#team'>
+                <div class='col-md-6'>
+                    <ol class='name-list'>
+                        <li>Jessica Barnett, Product Manager</li>
+                        <li>Alex Godin <span class='secondary-text'>Co-founder</span></li>
+                        <li>Nathan Johnson <span class='secondary-text'>Marketing<span></li>
+                        <li>Jesse Lamb <span class='secondary-text'>Co-founder</span></li>
+                        <li>Gary LosHuertos <span class='secondary-text'>Co-founder</span></li>
+                        <li>Mike Melton <span class='secondary-text'>Software Developer</span></li>
+                    </ol>
+                </div>
+                <div class='col-md-6'>
+                    <ol class='name-list'>
+                        <li>Kevin Purdy, Editor-in-Chief</li>
+                        <li>Mike Rehse, Software Developer</li>
+                        <li>Nick Stamas, Co-founder</li>
+                        <li>Demetri Stamas, Operations</li>
+                        <li>Joe Steele, Software Developer</li>
+                        <li>Steven Syverud, Operations</li>
+                    </ol>
+                </div>
+            </div>
+            <div class='section-label'>SPECIAL THANKS TO:</div>
+            <div class='row'>
+                <div class='col-md-6'>
+                    <ol class='name-list'>
+                        <li>Josh Kushner, Thrive Capital</li>
+                        <li>Chris Paik, Thrive Capital</li>
+                    </ol>
+                </div>
+                <div class='col-md-6'>
+                    <ol class='name-list'>
+                        <li>Seth Godin, Advisor</li>
+                        <li>David Tisch, Box Group</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class='footer'>
+            <canvas id='flameCanvas'></canvas>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/gyro.js"></script>
+        <script src="js/flamer.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
