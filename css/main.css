@@ -134,6 +134,10 @@ hr {
     margin-bottom: 40px;
 }
 
+.row.label {
+    margin-bottom: 25px;
+}
+
 .top {
     background: #000;
     width: 100%;
@@ -172,7 +176,7 @@ h1 a, h1 a:visited, a:hover {
     line-height: 17px;
     border-bottom: 1px solid #000;
     display: inline-block;
-    margin: 0 0 25px 40px;
+    margin: 0 0 0 40px;
 }
 
 .name-list {
